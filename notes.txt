@@ -1,0 +1,5 @@
+The interrupt series of videos has a lot of assembly coding in it. Great to learn about coding in assembly
+and how the 6502 works.
+
+Adding a delay:
+https://youtu.be/oOYA-jsWTmc?t=1062

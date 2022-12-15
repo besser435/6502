@@ -2,6 +2,9 @@
 This is a Python prototype of the Fibonacci sequence.
 I am dumb and dont know assembly, so I'm using this as a guide
 before I program it for the 6502.
+
+Ben Eater's video on the fibonacci sequence in assembly:
+https://www.youtube.com/watch?v=a73ZXDJtU48
 """
 import time
 
