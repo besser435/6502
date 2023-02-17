@@ -6,11 +6,17 @@ DDRA = $6003    ; Data direction register for port A
   .org $8000 ; Start of program memory
 
 reset:
-  lda #%11111111 ; Set all pins on port B of the I/O chip to on
+  lda #%11111111 ; Set all pins on port A of the I/O chip to on
   sta DDRA
+  lda #%11111111 ; Set all pins on port B of the I/O chip to on
+  sta DDRB
 
 
 loop:
+  lda #%11111111 ; Set all pins on port A of the I/O chip to on
+  sta DDRA
+  lda #%11111111 ; Set all pins on port B of the I/O chip to on
+  sta DDRB
   jmp loop
 
   .org $fffc

@@ -22,9 +22,3 @@ rom[0x7ffd] = 0x80
 
 with open("rom.bin", "wb") as out_file:
   out_file.write(rom)
-
-print("Wrote file rom.bin")
-
-
-#minipro -p AT28C256 -m rom.bin //verify memory in the device against this file
-#minipro -p AT28C256 -r data_in_rom.txt //read from the device and write the contents to this file
